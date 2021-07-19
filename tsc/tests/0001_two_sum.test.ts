@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import Solution from '../src/0001_two_sum/0001_two_sum';
+import Solution from '../src/0001_two_sum/solution';
 
 describe('0001TwoSumSolutionTest', () => {
     it('firstTest', () => {
