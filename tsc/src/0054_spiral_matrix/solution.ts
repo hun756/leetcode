@@ -42,5 +42,5 @@ export class Solution {
             dir %= 4;
         }
         return result;
-    };
+    }
 }
