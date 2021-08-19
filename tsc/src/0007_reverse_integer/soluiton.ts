@@ -9,7 +9,7 @@ export class Solution {
                 .split('')
                 .reverse()
                 .join('')
-        ) * (x < 0 ? -1 : 1);
+        ) * Math.sign(x);
 
         return (
             result > INTEGER_MAX || 
